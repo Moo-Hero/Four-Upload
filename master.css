@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 600px;
+    }
+}
+
+/* Small */
+@media only screen and (min-width: 768px) {
+    .container {
+       width: 750px;
+    }
+}
+
+/* Medium */
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/* <i class="fa-solid fa-ellipsis-vertical"></i>
+<i class="fa-solid fa-magnifying-glass"></i>
+<i class="fa-solid fa-camera"></i> */
+
+/* Start header */
+
+.header {
+    background-color: #1f2c34;
+    height: 100px;
+}
+
+.container {
+    padding: 15px 10px;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #677780;
+    font-size: larger;
+    float: left;
+}
+
+.icons i:first-child {
+    color: #8a9ba5;
+    float: right;
+}
+
+.list {
+    width: 160px;
+    height: 170px;
+    background-color: #233239;
+    float: right;
+}
+
+.list li {
+    color: #fffffe;
+    list-style: none;
+}
+
+.icons i:nth-child(3) {
+    color: #8a9ba5;
+    float: right;
+}
+
+.search {
+    float: right;
+}
+
+.stats {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.stats i {
+    color: #82939d;
+    position: absolute;
+    top: 55px;
+    left: -90px;
+}
+
+.stats div {
+    color: #8696a0;
+    display: inline-block;
+    width: 33.333%;
+    height: 100%;
+}
+
+.stats div:nth-child(2){
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+
+.stats div:nth-child(3) {
+    position: absolute;
+    top: 55px;
+    left: 100px;
+}
+
+.stats div:last-child {
+    position: absolute;
+    top: 55px;
+    left: 150px;
+}
+
+
+
+/* End header */
+/* Start my framework */
+
+.pointer {
+    cursor: pointer;
+}
+
+/* End my framework */
